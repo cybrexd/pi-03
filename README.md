@@ -9,7 +9,6 @@ Algo que cabe aclarar es que la información extra añadida en el dataset(pasaje
 
 
 #Diccionario de Datos
-
 Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.csv contenían los siguientes datos:
 
 *Fecha: Día, mes y año en el que tomo lugar el accidente
@@ -20,4 +19,12 @@ Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.cs
 *Route: Destino a donde se dirigían originalmente los aviones
 *Ac_type: Modelo del avión
 *Registracion: Número de Registro del Avión
-*Cn_ln: 
+*Cn_ln: Número de línea de fuselage
+*all_abroad: Número total de personas aborde en el avión 
+*Pasajeros a Bordo: número  de pasajeros en el avion
+*crew_abroad: Número de tripulación en el avión
+*Cantidad de fallecidos:Cantidad Total de gente que murió en el accidente 
+*passenger_fatalities: Número de pasajeros Fallecidos 
+*crew_fatalities: Número de Tripulantes fallecidos
+*ground:Número de personas que murieron en un impacto del avión a tierra
+*Summary:resumen de que accidente sucedió y en algunos casos porque sucedio
