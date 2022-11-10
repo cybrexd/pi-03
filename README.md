@@ -8,7 +8,10 @@ El dataset primario(accidentesAeros.csv), de donde se obtuvo la mayor parte de l
 Algo que cabe aclarar es que la información extra añadida en el dataset(pasajeros.csv) también tenía algunos datos faltantes y columnas no necesarias. Por lo que  luego del EDA se realizó un filtro como en el anterior para rescatar únicamente lo que aporta dato y contexto a la temática planteada. 
 
 
-#Diccionario de Datos
+##Diccionario de Datos
+
+
+
 Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.csv contenían los siguientes datos:
 
 *Fecha: Día, mes y año en el que tomo lugar el accidente
@@ -28,3 +31,6 @@ Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.cs
 *crew_fatalities: Número de Tripulantes fallecidos
 *ground:Número de personas que murieron en un impacto del avión a tierra
 *Summary:resumen de que accidente sucedió y en algunos casos porque sucedio
+
+
+#Herramientas utilizadas
