@@ -8,9 +8,7 @@ El dataset primario(accidentesAeros.csv), de donde se obtuvo la mayor parte de l
 Algo que cabe aclarar es que la información extra añadida en el dataset(pasajeros.csv) también tenía algunos datos faltantes y columnas no necesarias. Por lo que  luego del EDA se realizó un filtro como en el anterior para rescatar únicamente lo que aporta dato y contexto a la temática planteada. 
 
 
-##Diccionario de Datos
-
-
+#Diccionario de Datos
 
 Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.csv contenían los siguientes datos:
 
@@ -34,3 +32,9 @@ Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.cs
 
 
 #Herramientas utilizadas
+
+Python(incluida librerías Pandas y Sqlalchemy) con Jupyter Notebook: Utilizado para El EDA y la transformación 
+
+MYSQL: Para crear una DB donde almacenar los datasets para luego cargarlos
+
+PowerBi: Para que con los datos importados se pueda crear una visualización para hacer un Data Analysis en donde se puedan cruzar y relacionar datos. 
