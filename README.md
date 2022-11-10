@@ -6,7 +6,7 @@ Todo el proceso de EDA y transformacion fue realizado atreves de python.
 El dataset primario(accidentesAeros.csv), de donde se obtuvo la mayor parte de la información y la más relevante para realizar el análisis. Venia con muchísimos datos faltantes en la mayoría de las columnas, los cuales fueron completados o discretizados utilizando ciertos criterios y la información de otras columnas, además de otras fuentes. Dicho esto, varias de las columnas fueron descartadas por no obtener calidad de dato o ser redundantes.Sin embargo, luego de realizar el EDA se pudo concluir que varias columnas aportaban muchísima información y contexto para analizar y tratar el problema planteado.
 
 Algo que cabe aclarar es que la información extra añadida en el dataset(.csv) también tenía algunos datos faltantes y columnas no necesarias. Por lo que  luego del EDA se realizó un filtro como en el anterior para rescatar únicamente lo que aporta dato y contexto a la temática planteada. 
-Este Csv, contiene números sobre el número Total de personas Transportadas por avión a lo largo de los años. 
+Este Csv, contiene números sobre el número Total de personas Transportadas por avión a lo largo de los años. Y fue obtenido del Banco mundial de Datos
 
 # Diccionario de Datos
 
@@ -30,6 +30,12 @@ Apartir del EDA se pudo concluir que las columnas del dataset AccidentesAeros.cs
 * ground:Número de personas que murieron en un impacto del avión a tierra
 * Summary:resumen de que accidente sucedió y en algunos casos porque sucedio
 
+Apartir del EDA se pudo concluir que las columnas del dataset numeros_transporte.csv:
+
+* Country Name: Nombre del pais
+* Country Code: Codigo Nomenclatura del pais
+* Indicator Name y Indicator Code: Codigo Meremente funcional de la pagina donde se obtuvieron
+* Cualquier columna entre (1960-2021): Registro de Personas que viajaron en avion en Ese año
 
 # Herramientas utilizadas
 
